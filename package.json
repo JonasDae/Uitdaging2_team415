@@ -1,0 +1,28 @@
+{
+    "title": "1ITF uitdaging 2",
+    "name": "1ITF_uitdaging_2",
+    "version": "1.0.0",
+    "description": "A one page app landing page HTML theme for Bootstrap.",
+    "keywords": [
+        "1ITF",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "https://startbootstrap.com/template-overviews/new-age",
+    "license": "MIT",
+    "author": "Start Bootstrap",
+    "contributors": [
+        "David Miller (http://davidmiller.io/)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BlackrockDigital/startbootstrap-new-age.git"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.26.3",
+        "gulp": "^4.0.0"
+    }
+}
