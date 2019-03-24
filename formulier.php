@@ -81,8 +81,22 @@
             </p>
         </div>
         <div class="col-md-12">
-            <p>Om terug te gaan naar de vorige pagina kan je bovenaan op ons logo klikken.</p>
+            <p>Om terug te gaan naar de vorige pagina kan je hieronder op ons logo klikken.</p>
         </div>
+<header class="masthead">
+  <div class="container h-100">
+    <div class="row h-100">
+      <div class="col-lg-7 my-auto">
+        <div class="header-content mx-auto">
+        <a href="./index.html">
+          <img src="img/logo.svg" class="img-fluid" alt="">
+        </a>
+          <h3 class="mb-5">Webdesign waar je van in de wolken bent</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
     </div>
   </div>
 </section>
