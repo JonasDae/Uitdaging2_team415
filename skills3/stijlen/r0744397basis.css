@@ -1,0 +1,85 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FF8C00;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #B22222;
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+h2,
+p {
+    padding: 10px 0px;
+}
+
+#image {
+    height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: 
+}
+
+img.hidden {
+  display: inline;
+}
+
+img.hidden2 {
+  display: none;
+}
+
+img.hidden3 {
+  display: none;
+}
+
+#container {
+    background-color: #8B0000;
+    color: #FF8C00;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#luxe {
+  display: none;
+}
+
+#gaming {
+  display: none;
+}
+
+#primair {
+  display: content;
+}
+
+footer {
+    text-align: right;
+    font-weight: bold;
+    padding: 10px;
+}

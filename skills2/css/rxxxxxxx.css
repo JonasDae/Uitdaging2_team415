@@ -1,0 +1,48 @@
+/*basisstijl*/
+
+body {
+    font-family: tahoma, sans-serif;
+    background-color: lightcyan;
+    color: black;
+}
+
+table,
+td,
+th {
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+th {
+    font-style: italic;
+    background-color: #ccc;
+    color: #000;
+}
+
+col {
+    width: 150px;
+}
+
+a {
+    font-weight: bold;
+}
+
+a:link {
+    background-color: inherit;
+    color: red;
+}
+
+a:visited {
+    background-color: inherit;
+    color: green;
+}
+
+a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+a:active {
+    background-color: inherit;
+    color: blue;
+}

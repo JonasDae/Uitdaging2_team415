@@ -1,0 +1,52 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFAF0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #A9A9A9;
+}
+
+#luxe {
+  display: none;
+}
+
+#gaming {
+  display: contents;
+}
+
+#primair {
+  display: none;
+}
+
+img.hidden {
+  display: none;
+}
+
+img.hidden2 {
+  display: inline;
+}
+
+img.hidden3 {
+  display: none;
+}
+
+#container {
+    background-color: #000000;
+    color: #FFFAF0;
+}
