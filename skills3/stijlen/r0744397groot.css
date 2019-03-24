@@ -1,0 +1,55 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+#luxe {
+    display: contents;
+}
+
+#gaming {
+    display: none;
+}
+
+#primair {
+    display: none;
+}
+
+img.hidden {
+    display: none;
+}
+
+img.hidden2 {
+    display: none;
+}
+
+img.hidden3 {
+    display: inline;
+}
+
+#container {
+    background-color: #A9A9A9;
+    color: #000000;
+}

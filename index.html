@@ -80,8 +80,8 @@
     <!-- TODO Fix name en beschrijvin -->
         <div class="col-s12">
             <div class="media">
-                <img src="..." class="align self-center mr-3" alt="PERSOON1">
                 <div class="media-body">
+                    <img src="..." class="align self-center mr-3" alt="foto jonas">
                     <h5 class="mt-0">Jonas Daeyaert</h5>
                     <p class="mb-0">24 jaar<br>CEO<br>Opleiding: IT factory Thomas More</p>
                 </div>
@@ -89,19 +89,19 @@
         </div>
         <div class="col-s12">
             <div class="media">
-                <img src="..." class="align self-center mr-3" alt="PERSOON2">
                 <div class="media-body">
+                    <img src="wout.jpg" class="img-Portfolio" alt="foto wout" height="300" width="300">
                     <h5 class="mt-0">Wout Stevens</h5>
-                    <p class="mb-0">Persoon 2</p>
+                    <p class="mb-0">18 jaar<br>Opleiding: IT factory Thomas more<br>hobby's: fitness & Dj</p>
                 </div>
             </div>
         </div>
         <div class="col-s12">
             <div class="media">
                 <div class="media-body">
-                   <img src="andreas.jpg" class="img-Portfolio" alt="">
+                   <img src="andreas.jpg" class="img-Portfolio" alt="foto andreas" height="300" width="300">
                     <h5 class="mt-0">Andreas Steenackers</h5>
-                <p class="mb-0">18 jaar<br>Opleiding: IT factory Thomas more</p>
+                    <p class="mb-0">18 jaar<br>Opleiding: IT factory Thomas more</p>
                 </div>
             </div>
         </div>
@@ -114,8 +114,13 @@
     <div class="section-heading text-center">
       <h2>PORTFOLIO HERE</h2>
     </div>
-    <div>
-    <!-- TODO hier komt dan een soort lijst of grid ofzo-->
+    <div class="col">
+        <div class="row-md-12">
+            <a href="./skills2/rxxxxxxxskills2.html">skillstaken 2</a>
+        </div>
+        <div>
+            <a href="./skills3/r0744397skills3.html">skillstaken 3</a>
+        </div>
     </div>
   </div>
 </section>
@@ -126,47 +131,48 @@
     <h2>Contact Form</h2>
 
     <form class="form" action="formulier.php" method="post">
-      <div class="row">
+      <div class="col">
           <div class="formgroup">
-              <div class="col-md-6">
+              <div class="row-md-6">
                 <label for="name">Name</label>
               </div>
-              <div class="col-md-6">
+              <div class="row-md-6">
                 <input type="text" name="naam" id="name" placeholder="Peter Jansen" />
               </div>
           </div>
 
           <div class="formgroup">
-              <div class="col-md-6">
+              <div class="row-md-6">
                 <label for="email">Email</label>
               </div>
-              <div class="col-md-6">
+              <div class="row-md-6">
                 <input type="text" name="email" id="email" placeholder="email@voorbeeld.com" />
               </div>
           </div>
 
           <div class="formgroup">
-              <div class="col-md-6">
+              <div class="row-md-6">
                 <label for="text">Geef hier een kort bericht</label>
               </div>
-              <div class="col-md-6">
+              <div class="row-md-6">
                 <textarea name="text" placeholder="Geef hier uw bericht." /></textarea>
               </div>
           </div>
           <div class="formgroup">
-              <div class="col-md-6">
+              <div class="row-md-6">
                 <label for="Particulier">Particulier</label>
               </div>
-              <div class="col-md-6">
-                <input type="checkbox" name="chkparticulier" id="chkklant"?>
+              <div class="row-md-6">
+                <input type="radio" name="chkparticulier" id="chkklant"?>
               </div>
           </div>
+
           <div class="formgroup">
-              <div class="col-md-6">
+              <div class="row-md-6">
                 <label for="bedrijf">Bedrijf</label>
               </div>
-              <div class="col-md-6">
-                <input type="checkbox" name="chkbedrijf" id="chkbedrijf"?>
+              <div class="row-md-6">
+                <input type="radio" name="chkbedrijf" id="chkbedrijf"?>
               </div>
           </div>
 
