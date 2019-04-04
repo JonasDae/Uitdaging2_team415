@@ -86,9 +86,24 @@ p {
     font-family: 'Righteous', cursive;
 }
 
-black {
+.black {
     color: black;
 }
+
 h5{
     text-align: right;
+}
+
+#mainNav.navbar-shrink .navbar-nav>li>a:focus:hover,
+#mainNav.navbar-shrink .navbar-nav>li>a:hover {
+    color: #77a3cd;
+}
+
+#mainNav .navbar-nav>li>a.active {
+    color: #77a3cd !important;
+    background-color: transparent;
+}
+
+#mainNav .navbar-brand {
+    color: #fbfbfc;
 }
