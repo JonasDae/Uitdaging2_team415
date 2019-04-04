@@ -1,6 +1,6 @@
 /* in new-age.min.css wijzig je NIETS */
 /* schrijf in dit bestand je eigen stijlregels om opmaak aan te passen */
-
+/*
 input, textarea {
     padding: 10px;
     border: 1px solid #E5E5E5;
@@ -10,13 +10,7 @@ input, textarea {
     -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
     -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
 }
-
-textarea {
-    width: 400px;
-    height: 150px;
-    max-width: 400px;
-    line-height: 18px;
-}
+*/
 
 input:hover, textarea:hover,
 input:focus, textarea:focus {
@@ -24,11 +18,6 @@ input:focus, textarea:focus {
     box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
     -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
     -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
-}
-
-.form label {
-    margin-left: 10px;
-    color: black;
 }
 
 /* ===========================
