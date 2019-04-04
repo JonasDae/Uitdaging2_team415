@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Formulierverwerking</title>
+  <title>Cloud Designs Webdesign</title>
 
   <!-- CSS: Bootstrap, new-age, FA5 -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -31,20 +31,50 @@
 <body id="page-top">
 
 <!-- Navigation -->
-<section class="team bg-primary text-center" id="team">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top achterkleur1 black" id="mainNav">
+  <div class="container">
+    <button class="navbar-toggler navbar-toggler-right kleur2" type="button" data-toggle="collapse"
+            data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+            aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger black" href="index.html#team">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger black" href="index.html#realisaties">Realisaties</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger black" href="index.html#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="achterkleur2">
+  <div class="container h-50">
+      <a href="index.html"><img src="img/logo.svg" class="img-fluid" alt="Cloud Designs logo"></a>
+  </div>
+</header>
+<!-- form response-->
+<section class="achterkleur5" id="contact">
   <div class="container">
     <div class="section-heading text-center">
       <h2>Bedankt!</h2>
       <h3>We zullen u zo snel mogelijk contacteren!</h3>
     </div>
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-12">
             <p>Hieronder kan u nog nalezen wat u heeft verstuurd.</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-xs-12 col-sm-6">
             <p>Naam:</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-xs-12 col-sm-6">
             <p>
             <?php
                 if(isset($_POST["naam"]) && $_POST["naam"] != "")
@@ -54,10 +84,10 @@
             ?>
             </p>
         </div>
-        <div class="col-md-6">
+        <div class="col-xs-12 col-sm-6">
             <p>E-mail:</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-xs-12 col-sm-6">
             <p>
             <?php
                 if(isset($_POST["email"]) && $_POST["email"] != "")
@@ -67,10 +97,10 @@
             ?>
             </p>
         </div>
-        <div class="col-md-6">
+        <div class="col-xs-12 col-sm-6">
             <p>Bericht:</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-xs-12 col-sm-6">
             <p>
             <?php
                 if(isset($_POST["text"]) && $_POST["text"] != "")
@@ -80,40 +110,15 @@
             ?>
             </p>
         </div>
-        <div class="col-md-12">
-            <p>Om terug te gaan naar de vorige pagina kan je hieronder op ons logo klikken.</p>
+        <div class="col-12">
+            <p>Om terug te gaan naar de vorige pagina kan je hierboven op ons logo klikken.</p>
         </div>
-<header class="masthead">
-  <div class="container h-100">
-    <div class="row h-100">
-      <div class="col-lg-7 my-auto">
-        <div class="header-content mx-auto">
-        <a href="./index.html">
-          <img src="img/logo.svg" class="img-fluid" alt="">
-        </a>
-          <h3 class="mb-5">Webdesign waar je van in de wolken bent</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
-    </div>
-  </div>
+
 </section>
-<footer>
+
+<footer class="achterkleur1">
   <div class="container">
-    <p>&copy; Your Website 2019. All Rights Reserved.</p>
-    <ul class="list-inline">
-      <li class="list-inline-item">
-        <a href="#">Privacy</a>
-      </li>
-      <li class="list-inline-item">
-        <a href="#">Terms</a>
-      </li>
-      <li class="list-inline-item">
-        <a href="#">FAQ</a>
-      </li>
-    </ul>
+    <p>&copy; Cloud Designs 2019. All Rights Reserved.</p>
   </div>
 </footer>
 

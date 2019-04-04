@@ -61,7 +61,7 @@
     <div class="row h-100">
       <div class="col-lg-7 my-auto">
         <div class="header-content mx-auto">
-          <img src="img/logo.svg" class="img-fluid" alt="">
+          <img src="img/logo.svg" class="img-fluid" alt="Cloud Designs logo">
           <h3 class="mb-5">Webdesign waar je van in de wolken bent</h3>
         </div>
       </div>
@@ -145,32 +145,33 @@
     <h1>Contactformulier</h1>
 
     <form action="formulier.php" method="post">
-        <div class="form-row">
-            <div class="col-md-6 mb-3">
-                    <label for="email">Email adres</label>
-                    <input type="email" class="form-control" id="email" placeholder="Uw e-mail adres" required>
-                    <div class="invalid-feedback">
-                        Gelieve uw e-mail adres in te geven.
-                    </div>
-            </div>
-            <div class="col-md-6 mb-3">
-
+        <div class="form-row form-group">
+            <div class="col-sm-12 col-md-6">
                     <label for="naam">Naam</label>
                     <input type="text" class="form-control" id="naam" placeholder="Uw naam" required>
                     <div class="invalid-feedback">
                         Gelieve uw naam in te geven.
                     </div>
             </div>
-        </div>
-        <label for="checkboxes">U bent een:</label>
-        <div id="checkboxes">
-            <div class="form-check form-check-inline">
-                <input type="radio" class="form-check-input" name="radiobuttons" id="chkParticulier" required>
-                <label class="form-check-label" for="chkParticulier">Particulier</label>
+            <div class="col-sm-12 col-md-6">
+                    <label for="email">Email adres</label>
+                    <input type="email" class="form-control" id="email" placeholder="Uw e-mail adres" required>
+                    <div class="invalid-feedback">
+                        Gelieve uw e-mail adres in te geven.
+                    </div>
             </div>
-            <div class="form-check form-check-inline">
-                <input type="radio" class="form-check-input" name="radiobuttons" id="chkBedrijf" required>
-                <label class="form-check-label" for="chkBedrijf">Bedrijf</label>
+        </div>
+        <div class="form-group">
+            <label for="checkboxes">U bent een:</label>
+            <div id="checkboxes">
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="radiobuttons" id="chkParticulier" required>
+                    <label class="form-check-label" for="chkParticulier">Particulier</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="radiobuttons" id="chkBedrijf" required>
+                    <label class="form-check-label" for="chkBedrijf">Bedrijf</label>
+                </div>
             </div>
         </div>
         <div class="form-group">
