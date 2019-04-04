@@ -68,38 +68,34 @@
     </div>
   </div>
 </header>
-
 <section class="achterkleur3" id="team">
   <div class="container">
-    <div class="section-heading text-center">
-      <h1>Ons team</h1>
+    <div class="section-heading text-center cursif">
+      <h1>Team management</h1>
     </div>
     <div class="row">
 
         <div class="col-md-4">
-            <div class="media">
-                <img src="img/jonas.jpg" class="align self-center mr-3" alt="foto Jonas" height="150" width="150">
-                <div class="media-body">
-                    <h5 class="mt-0">Jonas Daeyaert</h5>
-                    <p class="mb-0">24 jaar<br>CEO<br>Opleiding: IT factory Thomas More</p>
+            <div class="media-body">
+                <img src="img/jonas.png" class="align self-center mr-3" alt="foto Jonas" height="250" width="425">
+                <div class="media-center">
+                    <h5>Jonas Daeyaert <br> 24 jaar<br>CEO<br>Opleiding: <br>IT factory Thomas More</h5>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
-            <div class="media">
-                <img src="img/wout.jpg" class="align self-center mr-3" alt="foto Wout" height="150" width="150">
-                <div class="media-body">
-                    <h5 class="mt-0">Wout Stevens</h5>
-                    <p class="mb-0">18 jaar<br>Opleiding: IT factory Thomas more<br>hobby's: fitness en Dj</p>
+            <div class="media-body">
+                <img src="img/wout.png" class="align self-center mr-3" alt="foto Wout" height="250" width="425">
+                <div class="media">
+                    <h5 >Wout Stevens <br> 18 jaar<br>Opleiding: <br> IT factory Thomas more<br>hobby's: fitness & Dj</h5>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
-            <div class="media">
-                <img src="img/andreas.jpg" class="align self-center mr-3" alt="foto Andreas" height="150" width="150">
-                <div class="media-body">
-                    <h5 class="mt-0">Andreas Steenackers</h5>
-                    <p class="mb-0">18 jaar<br>Opleiding: IT factory Thomas more</p>
+            <div class="media-body">
+                <img src="img/andreas.png" class="align self-center mr-3" alt="foto Andreas" height="250" width="425">
+                <div class="media-center">
+                    <h5>Andreas Steenackers<br> 18 jaar<br>Opleiding: <br>IT factory Thomas more</h5>
                 </div>
             </div>
         </div>
@@ -142,58 +138,43 @@
   <div class="container">
     <h1>Contactformulier</h1>
 
-    <form class="form " action="formulier.php" method="post">
-        <div class="row">
-          <div class="formgroup">
-              <div class="col-lg-6">
-                <label for="name">Name</label>
-              </div>
-              <div class="col-lg-6">
-                <input type="text" name="naam" id="name" placeholder="Peter Jansen" />
-              </div>
-          </div>
+    <form action="formulier.php" method="post">
+        <div class="form-row">
+            <div class="col-md-6 mb-3">
+                    <label for="email">Email adres</label>
+                    <input type="email" class="form-control" id="email" placeholder="Uw e-mail adres" required>
+                    <div class="invalid-feedback">
+                        Gelieve uw e-mail adres in te geven.
+                    </div>
+            </div>
+            <div class="col-md-6 mb-3">
+
+                    <label for="naam">Naam</label>
+                    <input type="text" class="form-control" id="naam" placeholder="Uw naam" required>
+                    <div class="invalid-feedback">
+                        Gelieve uw naam in te geven.
+                    </div>
+            </div>
         </div>
-        <div class="row-md-6">
-          <div class="formgroup">
-              <div class="col-lg-6">
-                <label for="email">Email</label>
-              </div>
-              <div class="col-lg-6">
-                <input type="text" name="email" id="email" placeholder="email@voorbeeld.com" />
-              </div>
-          </div>
+        <label for="checkboxes">U bent een:</label>
+        <div id="checkboxes">
+            <div class="form-check form-check-inline">
+                <input type="radio" class="form-check-input" name="radiobuttons" id="chkParticulier" required>
+                <label class="form-check-label" for="chkParticulier">Particulier</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input type="radio" class="form-check-input" name="radiobuttons" id="chkBedrijf" required>
+                <label class="form-check-label" for="chkBedrijf">Bedrijf</label>
+            </div>
         </div>
-        <div class="row">
-          <div class="formgroup">
-              <div class="col-lg-6">
-                <label for="textveld">Geef hier een kort bericht</label>
-              </div>
-              <div class="col-lg-6">
-                <textarea name="textveld" id="textveld" placeholder="Geef hier uw bericht." /></textarea>
-              </div>
-          </div>
+        <div class="form-group">
+            <label for="textveld">Vul hier uw bericht in</label>
+            <textarea class="form-control" name="text" id="textveld" rows="5" required></textarea>
+            <div class="invalid-feedback">
+                Gelieve een bericht in te geven.
+            </div>
         </div>
-        <div class="row">
-          <div class="formgroup">
-              <div class="col-lg-6">
-                <label for="particulier">Particulier</label>
-              </div>
-              <div class="col-lg-6">
-                <input type="radio" name="checkbox" checked id="particulier">
-              </div>
-              <div class="col-lg-6">
-                <label for="bedrijf">Bedrijf</label>
-              </div>
-              <div class="col-lg-6">
-                <input type="radio" name="checkbox" id="bedrijf">
-              </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="formgroup row-lg-12">
-            <input type="submit" value="Verzenden" />
-          </div>
-        </div>
+        <button type="submit" class="btn btn-primary">Verzenden</button>
     </form>
   </div>
 </section>
