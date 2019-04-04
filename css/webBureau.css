@@ -91,7 +91,7 @@ p {
 }
 
 h5{
-    text-align: right;
+    text-align: center;
 }
 
 #mainNav.navbar-shrink .navbar-nav>li>a:focus:hover,
@@ -107,3 +107,4 @@ h5{
 #mainNav .navbar-brand {
     color: #fbfbfc;
 }
+
