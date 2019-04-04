@@ -1,11 +1,13 @@
 /* in new-age.min.css wijzig je NIETS */
 /* schrijf in dit bestand je eigen stijlregels om opmaak aan te passen */
-/*
+
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
 input, textarea {
     padding: 10px;
     border: 1px solid #E5E5E5;
-    width: 200px;
-    color: #999999;
+    width: fluid;
+    color: black;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
     -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
     -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
@@ -25,11 +27,65 @@ input:focus, textarea:focus {
    =========================== */
 
 .submit input {
-    width: 100px;
+    width: fluid;
     height: 40px;
     background-color: black;
     color: #FFF;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
+}
+
+.achterkleur1 {
+    background-color: #fbfbfc;
+}
+
+.achterkleur2 {
+    background-color: #c9d2e6;
+}
+
+.achterkleur3 {
+    background-color: #aac3de;
+}
+
+.achterkleur4 {
+    background-color: #95b3d6;
+}
+
+.achterkleur5 {
+    background-color: #77a3cd;
+}
+
+.kleur1 {
+    color: #fbfbfc;
+}
+
+.kleur2 {
+    color: #c9d2e6;
+}
+
+.kleur3 {
+    color: #aac3de;
+}
+
+.kleur4 {
+    color: #95b3d6;
+}
+
+.kleur5 {
+    color: #77a3cd;
+}
+
+h1,h2,h3 {
+    color: black;
+    font-family: 'Righteous', cursive;
+}
+
+p {
+    color: black;
+    font-family: 'Righteous', cursive;
+}
+
+black {
+    color: black;
 }
