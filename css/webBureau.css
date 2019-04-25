@@ -3,6 +3,25 @@
 
 @import url('https://fonts.googleapis.com/css?family=Righteous');
 
+body {
+    background-image:       url(../img/background.jpg);
+    background-attachment:  fixed;
+    background-position:    center;
+    background-size:        cover;
+}
+
+header {
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+section {
+    margin: 20px;   
+    background-color: #ddccb5;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    padding: 10px;
+}
+
 input, textarea {
     padding: 10px;
     border: 1px solid #E5E5E5;
@@ -116,5 +135,9 @@ h5{
 
 #mainNav .navbar-brand {
     color: #fbfbfc;
+}
+
+.media-body {
+    font-size: 12px;
 }
 
