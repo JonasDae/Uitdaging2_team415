@@ -110,7 +110,7 @@ p {
 }
 
 h5{
-    text-align: right;
+    text-align: center;
 }
 
 .display {
@@ -140,4 +140,3 @@ h5{
 .media-body {
     font-size: 12px;
 }
-
