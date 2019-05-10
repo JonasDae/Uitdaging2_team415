@@ -140,3 +140,8 @@ h5{
 .media-body {
     font-size: 12px;
 }
+
+.onderlijn:hover {
+    color: black;
+
+}
