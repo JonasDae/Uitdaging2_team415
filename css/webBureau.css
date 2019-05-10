@@ -126,4 +126,9 @@ h5{
 #mainNav .navbar-brand {
     color: #fbfbfc;
 }
-
+a{
+    color:black
+}
+a.avbar-brand js-scroll-trigger{
+    color: black;
+}

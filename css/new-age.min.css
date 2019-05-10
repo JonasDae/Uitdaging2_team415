@@ -144,12 +144,7 @@ section h2 {
     }
     #mainNav.navbar-shrink .navbar-brand:focus,
     #mainNav.navbar-shrink .navbar-brand:hover {
-<<<<<<< HEAD
         color: #fdcc52
-=======
-        color: black
-        
->>>>>>> 5c3cf1bd0c51ec08c704966ca0bc3b9a9e08a9c2
     }
     #mainNav.navbar-shrink .navbar-nav>li>a,
     #mainNav.navbar-shrink .navbar-nav>li>a:focus {
